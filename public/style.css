@@ -1,0 +1,64 @@
+* {
+   margin: 0;
+   font-family: "Nunito Sans", sans-serif;
+}
+body {
+   background: rgb(213,200,206);
+   background: linear-gradient(256deg, rgba(213,200,206,1) 1%, rgba(179,174,161,0.5144651610644257) 70%);
+}
+
+#new-task-form {
+   text-align: center;
+   margin: 30px;
+}
+
+#new-task-title {
+   height: 2rem;
+   width: 30%;
+}
+
+button {
+   background-color: rgb(178, 131, 211);
+   color: azure;
+   border: none;
+   height: 1.3rem;
+   border-radius: 5%;
+   margin-left: 10px;
+   margin-bottom: 50px;
+}
+
+button:hover{
+   background-color: rgb(161, 134, 154);
+}
+
+#list {
+   list-style: none;
+   padding-bottom: 100px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+li {
+   margin: 1rem;
+   font-size: 1.2rem;
+   display: block;
+}
+
+p {
+   display: inline;
+   margin: 2rem;
+}
+
+footer {
+   position: fixed;
+   width: 100%;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+   margin-bottom: 0px;
+   padding: 20px;
+   text-align: center;
+   background-color: grey;
+   color: white;
+   font-size: 20px;
+}
